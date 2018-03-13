@@ -150,7 +150,7 @@ public class MainActivity extends Activity implements OnClickListener {
     /**
      * Resets Everything
      */
-    public void Reset(View v) {
+    public void reset(View v) {
         scoreTeamA=0;
         teamAyellow=0;
         teamAred=0;
