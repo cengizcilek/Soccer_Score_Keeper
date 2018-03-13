@@ -245,7 +245,6 @@
 
         </LinearLayout>
 
-
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
