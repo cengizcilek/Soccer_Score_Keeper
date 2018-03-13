@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Soccer_Score_Keeper</string>
+    <string name="resetAll">RESET ALL</string>
+    <string name="game_time">Game Time</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="team_a">Team A</string>
+    <string name="goal">GOAL</string>
+    <string name="yellow_card">CARD</string>
+    <string name="red_card">CARD</string>
+    <string name="team_b">Team B</string>
+    <string name="score">0</string>
+    <string name="numberOfYellow">0</string>
+    <string name="numberOfRed">0</string>
 </resources>

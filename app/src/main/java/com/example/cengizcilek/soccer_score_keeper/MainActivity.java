@@ -13,12 +13,16 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements OnClickListener {
     private Chronometer chronometer;
 
-    //Team A Variables
+    /**
+     * Team A Variables.
+     */
     int scoreTeamA=0;
     int teamAyellow=0;
     int teamAred=0;
 
-    //Team B Variables
+    /**
+     * Team B Variables.
+     */
     int scoreTeamB=0;
     int teamByellow=0;
     int teamBred=0;
@@ -74,7 +78,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 
     /**
-     * Displays the given score for Team B.
+     * Displays Beginning Value for Team B.
      */
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
@@ -90,7 +94,7 @@ public class MainActivity extends Activity implements OnClickListener {
     }
 
     /**
-     * Displays B Yellow Card
+     * Displays B Red Card
      */
     public void displayBred(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_redcard);
