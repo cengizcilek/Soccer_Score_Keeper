@@ -35,7 +35,7 @@ public class MainActivity extends Activity implements OnClickListener {
         ((Button) findViewById(R.id.stop_button)).setOnClickListener(this);
         ((Button) findViewById(R.id.reset_button)).setOnClickListener(this);
     }
-    
+
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
