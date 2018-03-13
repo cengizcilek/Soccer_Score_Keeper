@@ -75,8 +75,6 @@ public class MainActivity extends Activity implements OnClickListener {
         scoreView.setText(String.valueOf(score));
     }
 
-
-
     /**
      * Displays Beginning Value for Team B.
      */
@@ -167,7 +165,5 @@ public class MainActivity extends Activity implements OnClickListener {
         displayBred(teamBred);
         chronometer.setBase(SystemClock.elapsedRealtime());
     }
-
-
 
 }
