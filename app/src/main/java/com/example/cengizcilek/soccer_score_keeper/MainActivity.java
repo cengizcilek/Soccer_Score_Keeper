@@ -9,23 +9,21 @@ import android.widget.Chronometer;
 import android.app.Activity;
 import android.widget.TextView;
 
-
 public class MainActivity extends Activity implements OnClickListener {
-    private Chronometer chronometer;
-
     /**
      * Team A Variables.
      */
     int scoreTeamA=0;
     int teamAyellow=0;
     int teamAred=0;
-
+    
     /**
      * Team B Variables.
      */
     int scoreTeamB=0;
     int teamByellow=0;
     int teamBred=0;
+    private Chronometer chronometer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
